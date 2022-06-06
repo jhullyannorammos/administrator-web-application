@@ -1,0 +1,16 @@
+br.com.application.controller.managedbean
+br.com.application.controller.servlets
+br.com.application.dao.implementation
+br.com.application.domain
+br.com.application.domain.person
+br.com.application.domain.rh
+br.com.application.domain.stock
+br.com.application.enumerator
+br.com.application.infrastructure
+br.com.application.persistence
+br.com.application.persistence.dao
+br.com.application.persistence.jdbc
+br.com.application.persistence.util
+br.com.application.security
+br.com.application.test
+br.com.application.util
