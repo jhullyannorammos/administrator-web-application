@@ -145,9 +145,6 @@ body {
 
 
 	<div class="form">
-	    <div class="logo">
-				<img src="src/logo_saneago.png" />
-			</div>
 		<div class="container">
 
 			

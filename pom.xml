@@ -7,7 +7,7 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>Project</name>
+	<name>administrator-web-application</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -55,38 +55,7 @@
 	</build>
 
 	<dependencies>
-		<!-- JSF -->
-		<dependency>
-			<groupId>org.glassfish</groupId>
-			<artifactId>javax.faces</artifactId>
-			<version>2.2.12</version>
-		</dependency>
 
-
-		<!-- PrimeFaces -->
-		<dependency>
-			<groupId>org.primefaces</groupId>
-			<artifactId>primefaces</artifactId>
-			<version>5.2</version>
-		</dependency>
-
-		<!-- PrimeFaces Themes -->
-		<dependency>
-			<groupId>org.primefaces.themes</groupId>
-			<artifactId>all-themes</artifactId>
-			<version>1.0.10</version>
-		</dependency>
-
-		<!-- <dependency> <groupId>org.glassfish.jersey.media</groupId> <artifactId>jersey-media-json-jackson</artifactId> 
-			<version>2.29.1</version> </dependency> <dependency> <groupId>org.glassfish.jersey.core</groupId> 
-			<artifactId>jersey-client</artifactId> <version>2.22.1</version> <scope>provided</scope> 
-			</dependency> <dependency> <groupId>org.glassfish.jersey.containers</groupId> 
-			<artifactId>jersey-container-servlet</artifactId> <version>2.29.1</version> 
-			</dependency> <dependency> <groupId>org.glassfish.jersey.inject</groupId> 
-			<artifactId>jersey-hk2</artifactId> <version>2.29.1</version> </dependency> 
-			<dependency> <groupId>com.sun.jersey</groupId> <artifactId>jersey-server</artifactId> 
-			<version>1.8</version> </dependency> <dependency> <groupId>com.sun.jersey</groupId> 
-			<artifactId>jersey-json</artifactId> <version>1.8</version> </dependency> -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jsr310</artifactId>
@@ -164,27 +133,12 @@
 			<version>4.3.11.Final</version>
 		</dependency>
 
-		<!-- Hibernate Entity Manager -->
-		<!-- Implementação de EntityManager da JPA <dependency> <groupId>org.hibernate</groupId> 
-			<artifactId>hibernate-entitymanager</artifactId> <version>5.2.4.Final</version> 
-			<scope>compile</scope> </dependency> -->
-
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.5</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson <dependency> 
-			<groupId>com.google.code.gson</groupId> <artifactId>gson</artifactId> <version>2.3.1</version> 
-			</dependency> -->
-
-		<!-- Gson: Java to Json conversion <dependency> <groupId>com.google.code.gson</groupId> 
-			<artifactId>gson</artifactId> <version>2.2.2</version> <scope>compile</scope> 
-			</dependency> -->
-
-		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -230,17 +184,7 @@
 			<version>1.2.2.Final</version>
 			<scope>compile</scope>
 		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client 
-		<dependency> 
-		    <groupId>org.mariadb.jdbc</groupId> 
-		    <artifactId>mariadb-java-client</artifactId> 
-			<version>2.7.0</version> 
-		</dependency> -->
 			
 	</dependencies>
-
-
 
 </project>
